@@ -53,7 +53,7 @@ Send a message and receive a complete response. Pass the returned `history` in s
 ```
 
 ### `POST /chat/stream`
-Same as `/chat` but streams the response as Server-Sent Events (SSE). Each event contains a text chunk, ending with `data: [DONE]`.
+Same as `/chat` but streams the response as Server-Sent Events (SSE). All events contain a text chunk, ending with `data: [DONE]`.
 
 **Example with curl:**
 ```bash
