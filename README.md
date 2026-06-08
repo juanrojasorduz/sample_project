@@ -31,7 +31,7 @@ A FastAPI server for multi-turn conversations with the Claude API.
 Returns server status.
 
 ### `POST /chat`
-Send a message and receive a complete response. Then pass the returned `history` in subsequent requests to maintain conversation context.
+Send a message and receive a complete response. Pass the returned `history` in subsequent requests to maintain conversation context.
 
 **Request:**
 ```json
